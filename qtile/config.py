@@ -26,6 +26,7 @@ screens = [Screen(top = bar.Bar([
         # A prompt for spawning processes or switching groups. This will be
         # invisible most of the time.
         widget.Prompt(),
+        widget.DF(partition="/home/zhuzhen"),
         # Current window name.
         widget.WindowName(foreground = "a0a0a0",),
         widget.Notify(),
